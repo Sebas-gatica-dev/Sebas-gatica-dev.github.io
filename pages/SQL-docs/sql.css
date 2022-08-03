@@ -1,0 +1,260 @@
+body{
+  
+    background: rgb(0,168,255);
+    background: radial-gradient(circle,  #F08080 0%, #000 800%);
+
+}
+
+
+
+/* NABVAR-CLASS */
+
+.li-menu_desktop{
+    padding-right:4rem;
+  }
+  .ul-navbar-menu{
+      margin-top:-4px;
+      position: relative;
+  }
+
+  .container-navbar-menu{
+    margin-left:27.3%;
+    padding:0.5rem;
+    position:absolute;
+    top:6px;
+    left:-6px;
+   
+   }
+
+/* hover de los botnoces del navbar */
+   .font-size_a_lg{
+    font-size:1.5rem !important;
+    background-color: #F08080;
+    transition: background-color 3s;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px #020024;
+  }
+ 
+ .font-size_a_lg:hover{
+ background: radial-gradient(circle, #F08080 0%, #000 2000%);
+ cursor:pointer;
+
+ }
+
+
+   
+   .propsNavbar{
+    height:80px;
+    margin-top: -96px;
+    position:fixed;
+    z-index: 100;
+    background: #F08080;
+    background: linear-gradient(7deg, #F08080 0%, #000 800%);
+    font-size:15px;
+    
+   }
+
+
+   .letter-title{
+     width:1.5rem;
+     height:3.7rem;
+   }
+   .font-s-title{
+    display: flex;
+   }
+  #s-style{
+    width:5rem;
+  }
+  #d-style{
+    width: 1.5rem;
+  }
+  #dev{
+    font-size:2.2rem !important;
+    margin-left: -16px;
+    color:white;
+    transition: color 1s;
+  }
+  #dev:hover{
+    color: white;
+  }
+
+
+
+
+     
+/* FIRST CONTENT  */
+
+.cont-1_section1{
+    
+    margin-top: 5rem;
+    padding:10px;
+}
+
+
+
+/* CONTENIDO MAS CODIGO */
+
+
+.contenedor-code{
+    background-color: #f6f3f3;
+    border-radius: 0.3rem;
+
+
+}
+
+.color-rojo{
+  color: red;
+}
+.color-azul{
+    color: blue;
+}
+.color-coments{
+   color: grey;
+}
+
+.explication-1{
+    margin-top:3rem;
+    font-size: 1.6rem;
+}
+
+#ejemplo1{
+   width: 34.5rem;
+}
+#ejemplo2{
+   width: 50rem;
+   height: 13rem;
+}
+#ejemplo3{
+  width: 10rem;
+}
+#ejemplo4{
+  width: 10rem;
+}
+#ejemplo5{
+  width: 10rem;
+}
+
+#ejemplo-mini1{
+   width: 20rem;
+   height: 7rem;
+}
+#ejemplo-mini2{
+  width: 26.5rem;
+  height: 7rem;
+}
+#ejemplo-mini3{
+  width: 33rem;
+  height: 7rem;
+}
+#ejemplo-mini4{
+  width: 43rem;
+  height: 7rem;
+}
+#ejemplo-mini5{
+  width: 35rem;
+  height: 7rem;
+}
+#ejemplo-mini6{
+  width: 10rem;
+}
+#ejemplo-mini7{
+  width: 10rem;
+}
+#ejemplo-mini8{
+  width: 10rem;
+}
+#ejemplo-mini9{
+  width: 10rem;
+}
+#ejemplo-mini10{
+  width: 10rem;
+}
+#ejemplo-mini11{
+  width: 10rem;
+}
+#ejemplo-mini12{
+  width: 10rem;
+}
+#ejemplo-mini13{
+  width: 10rem;
+}
+#ejemplo-mini14{
+  width: 10rem;
+}
+
+.explication-2{
+    font-size: 1.6;
+}
+
+
+
+
+
+    /* RELOJ */
+
+
+ /* reloj responsive */
+   
+    .reloj{
+        background: linear-gradient(#F08080 0%,#020024 500%);
+        border: 2px solid #000;
+        display:inline-flex;
+        position: fixed;
+        margin-left:1100px;
+        border-radius:0.5rem;
+    }
+    .reloj div {
+        color: #fff;
+        padding: 5px 9px;
+        font-size: 20px;
+        font-family: monospace;
+       
+    }
+    .hora{
+     border-right:1px solid #000;
+    }
+    .minutos{
+        border-right:1px solid #000;
+    }
+
+
+/* CONTENT  */
+
+.first-content{
+    font-size: 1.6rem;
+    color:rgba(255,255,255,1);
+    margin-top: 2rem;
+    }
+
+
+/*  FOOTER */
+
+    .style-footer{
+        margin: 795rem 1rem 1rem 9rem;
+    }
+    .style-row-footer{
+        width:100%;
+     
+    
+    }
+    #linkedin-img{
+      width: 4rem;
+      height: 4rem;
+      margin-right:0.5rem;
+    }
+    #github-img{
+        width: 4rem;
+        height: 4rem;
+        margin-left:0.5rem;
+    }
+
+/* ID */
+#seba1{
+    position: absolute;
+    top: 9.7rem;
+    right: 58rem;
+    margin:10px;
+    height: 10rem;
+    width:10rem;
+    
+}

@@ -1,0 +1,42 @@
+@media (min-width: 970px){
+/* FIRST-CONTENT */
+
+
+    .content-history{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        display:inline-block; 
+    }
+    .first-content-history{
+        font-size: 1.6rem;
+        color:rgba(255,255,255,1);
+        margin-top: 20rem;
+    }
+    .first-content-history-p1{
+      padding-top: 2rem;
+      margin-left: 10rem;
+    }
+    .first-content-history-p2{
+       padding-top: 1rem;
+    }
+
+    #seb1-history{
+        width: 8.7rem;
+        height: 8.9rem;
+        position: absolute;
+        top: 11rem;
+        object-fit: cover;
+      
+    }
+
+
+    /* FOOTER */
+.style-footer-history{
+    margin: 130rem 1rem 1rem 1rem;
+
+}
+
+
+}
+
+

@@ -8,36 +8,6 @@ body{
 
 
 
-//navbar class
-
-.li-menu_desktop{
-    padding-right:4rem;
-  }
-  .ul-menu_responsive{
-      margin-top:-4px;
-      position: relative;
-  }
-
-  .margin-menu_responsive{
-    margin-left:74.7%;
-    padding:0.5rem;
-    position:absolute;
-    top:67px;
-    left:-6px;
-   }
-   
-   .propsNavbar{
-    height:80px;
-    margin-top: -96px;
-    position:fixed;
-    z-index: 100;
-    background: rgb(11,81,160);
-    background: linear-gradient(7deg, rgba(11,81,160,1) 0%, rgba(2,0,36,1) 100%);
-    font-size:15px;
-    
-  
-   }
-   
 
 
 
@@ -45,55 +15,6 @@ body{
 
 
 
-
-//cards
-
-
-
-.alto-100{
-    margin-top: 50rem;
-}
-
-.d-flex img{
-    width: 80px;
-
-}
-
-.fondo-card{
-    background-image: url('../images/bg-pattern-quotation.svg');
-    background-repeat: no-repeat;
-    background-position:85% top;
-}
-.express-titulo{
-    font-size: xx-large;
-}
-
-#card-seba-dev{
-  background: #FF8C00;
-}
-.titulo-card-seba{
-   font-size: 1rem ;
-}
-.subtitulo-card-seba{
-    font-size: 1rem ;
-}
-
-#card-react{
-    background: rgb(11,81,160);
-    background: linear-gradient(174deg, rgba(11,81,160,1) 38%, rgba(0,255,255,1) 100%);
-    border: none;
-}
-#card-nodejs{
- background: #9ACD32;
-}
-#card-sql{
-    background: #F08080;
-
-}
-#card-express{
-    color:black;
-    background: #F5F5DC;
-}
 
 
 
@@ -118,41 +39,30 @@ body{
 
 
 
-
+//responsive
 @media(min-width: 760px){
 
+     //RELOJ-RESPONSIVE
+
+    .reloj-responsive{
+        display:none;
+     }    
+    .reloj-responsive div{
+        display: none;
+    }
     
 
-    //reloj responsive
-    // .reloj{
-    
-    //     display:none;
-    // }
-    // .reloj div{
-    //     display:none;
-    // }
-       .reloj-responsive{
-        background: linear-gradient(#00a8ff,#020024);
-        border: 2px solid #000;
-        display:inline-flex;
-        position: fixed;
-        margin-left:670px;
-        border-radius:0.5rem;
-        
-    }
-    .reloj-responsive div {
-        color: #fff;
-        padding: 3px 7px;
-        font-size: 10px;
-        font-family: monospace;
-       
-    }
-    .hora-res{
-     border-right:1px solid #000;
-    }
-    .minutos-res{
-        border-right:1px solid #000;
-    }
+  
+
+ 
+
+
+
+      
+  
+
+
+   
 }
 
 
@@ -160,84 +70,151 @@ body{
 
 
 @media (min-width: 970px) {
-    .alto-100 {
-          height:100vh;
-      };
-  
-    .margin-menu_responsive{
-        padding-right: 1rem;
-        position: relative;
-        top: 4px;
-        margin-left: 1rem;
-       
-         };
 
-     .ul-menu_responsive{
-       
-      margin-left:7rem;
-     }
+  
      
-     .font-size_a_lg{
-       font-size:1.5rem !important;
-       background-color: #0B51A0;
-       transition: background-color 3s;
-       border-radius: 50%;
-       box-shadow: 10px 5px 5px #020024;
-     }
-    
-    .font-size_a_lg:hover{
-    background: radial-gradient(circle, #0B51A0 , #020024 100%);
-    cursor:pointer;
   
-    }
-
-     .font-s-title{
-       font-size:2rem !important
-     }
+    //cards
 
 
 
+.alto-100{
+    margin-top: 77rem;
+}
 
-     //reloj
+.d-flex img{
+    width: 80px;
 
- .reloj-responsive{
-    display:none;
- }    
-.reloj-responsive div{
-    display: none;
+}
+
+.fondo-card{
+    background-image: url('../images/bg-pattern-quotation.svg');
+    background-repeat: no-repeat;
+    background-position:85% top;
+}
+.express-titulo{
+    font-size: xx-large;
 }
 
 
-.reloj{
-    background: linear-gradient(#00a8ff,#020024);
-    border: 2px solid #000;
-    display:inline-flex;
-    position: fixed;
-    margin-left:1120px;
-    border-radius:0.5rem;
-}
-.reloj div {
-    color: #fff;
-    padding: 5px 9px;
-    font-size: 20px;
-    font-family: monospace;
+    //NABVAR-CLASS
+
+.li-menu_desktop{
+    padding-right:4rem;
+  }
+  .ul-navbar-menu{
+      margin-top:-4px;
+      position: relative;
+  }
+
+  .container-navbar-menu{
+    margin-left:27.3%;
+    padding:0.5rem;
+    position:absolute;
+    top:6px;
+    left:-6px;
    
-}
-.hora{
- border-right:1px solid #000;
-}
-.minutos{
-    border-right:1px solid #000;
-}
+   }
 
-      
+   //hover de los botnoces del navbar
+   .font-size_a_lg{
+    font-size:1.5rem !important;
+    background-color: #0B51A0;
+    transition: background-color 3s;
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px #020024;
+  }
+ 
+ .font-size_a_lg:hover{
+ background: radial-gradient(circle, #0B51A0 , #020024 100%);
+ cursor:pointer;
+
+ }
+
+
+   
+   .propsNavbar{
+    height:80px;
+    margin-top: -96px;
+    position:fixed;
+    z-index: 100;
+    background: rgb(11,81,160);
+    background: linear-gradient(7deg, rgba(11,81,160,1) 0%, rgba(2,0,36,1) 100%);
+    font-size:15px;
+    
+   }
+
+
+   .letter-title{
+     width:1.5rem;
+     height:3.7rem;
+   }
+   .font-s-title{
+    display: flex;
+   }
+  #s-style{
+    width:5rem;
+  }
+  #d-style{
+    width: 1.5rem;
+  }
+  #dev{
+    font-size:2.2rem !important;
+    margin-left: -16px;
+    color:white;
+    transition: color 1s;
+  }
+  #dev:hover{
+    color: white;
   }
 
 
+     
 
 
 
-//content home
+     //RELOJ
+
+
+ //reloj responsive
+    // .reloj{
+    
+    //     display:none;
+    // }
+    // .reloj div{
+    //     display:none;
+    // }
+
+    .reloj{
+        background: linear-gradient(#00a8ff,#020024);
+        border: 2px solid #000;
+        display:inline-flex;
+        position: fixed;
+        margin-left:1100px;
+        border-radius:0.5rem;
+    }
+    .reloj div {
+        color: #fff;
+        padding: 5px 9px;
+        font-size: 20px;
+        font-family: monospace;
+       
+    }
+    .hora{
+     border-right:1px solid #000;
+    }
+    .minutos{
+        border-right:1px solid #000;
+    }
+
+
+
+
+
+
+
+
+//CONTENT-HOME
 
 .fila{
     display: inline-block;
@@ -266,7 +243,7 @@ body{
 
 
 
-//info proyect card
+//INFO-PROYECT-CARD
 
 .tarjeta-info-proyect{
     width: 100%;
@@ -297,7 +274,7 @@ body{
     background-color: #F08080;
     padding:1.5rem;
     box-shadow: 1rem 1rem 1rem 0.5rem rgba(0, 0, 0, 0.5);
-    margin-top: 3rem;
+    margin-top: 4rem;
     padding-left: 3.5rem;
     font-size: 1.22rem;
     padding-bottom: 4rem;
@@ -346,7 +323,7 @@ font-size: 1.54rem;
 
 
 
-//content history
+//CONTENT-TEXT
 
 .history-text{
     font-size: 1.6rem;
@@ -365,14 +342,10 @@ font-size: 1.54rem;
 
 
 
-
-
-
-
-//footer
+//FOOTER
 
 .style-footer{
-    margin: 100% 1rem 1rem 1rem;
+    margin: 1rem 1rem 1rem 1rem;
 }
 .style-row-footer{
     width:100%;
@@ -390,7 +363,7 @@ font-size: 1.54rem;
     margin-left:0.5rem;
 }
 
-// ids
+// IDS
 
 #nav-first-li-a{
     padding-left: 2rem;
@@ -441,9 +414,36 @@ font-size: 1.54rem;
 }
 
 
+#card-seba-dev{
+    background: #FF8C00;
+  }
+  .titulo-card-seba{
+     font-size: 1rem ;
+  }
+  .subtitulo-card-seba{
+      font-size: 1rem ;
+  }
+  
+  #card-react{
+      background: rgb(11,81,160);
+      background: linear-gradient(174deg, rgba(11,81,160,1) 38%, rgba(0,255,255,1) 100%);
+      border: none;
+  }
+  #card-nodejs{
+   background: #9ACD32;
+  }
+  #card-sql{
+      background: #F08080;
+  
+  }
+  #card-express{
+      color:black;
+      background: #F5F5DC;
+  }
+  
 
 
-
+}
 
 
 
