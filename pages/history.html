@@ -13,144 +13,188 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100;300;600;700;900&family=Lato:wght@400;700&family=My+Soul&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="history.css">
+   
        <!-- <link rel="stylesheet" href="./sass/reducido.css"> -->
 
   
   <link rel="stylesheet" href="../sass/custom.css">
+  <link rel="stylesheet" href="history.css">
 
 </head>
-<body>
 
-<!-- 
-  <div class="modal-overlay">
-    <div>
-        <h2>Select your lenguage</h2>
-        <span class="loading-lang">Cargando...</span>
-        <a href="#" id="translate" data-text="English,Español" data-file="es,en" data-index="1">English</a>
-    </div>
+<body id="main">
 
-</div>
-   -->
-    <nav class="navbar navbar-expand-lg bg-light position-absolute">
-        <div class="container-fluid  propsNavbar">
-          <a  id="title-myname" class="navbar-brand font-s-title" href="https://github.com/Sebas-gatica-dev" target="_blank">
-            <!-- <img id="s-style" class="letter-title" src="./images/s.svg" alt="S">
-            <img class="letter-title" src="./images/e.svg" alt="E">
-            <img class="letter-title" src="./images/b-letter.svg" alt="B"> -->
-            <img id="s-style" class="letter-title" src="../images/sg.svg" alt="sg"><p id="dev" >.dev</p>
-            <!-- <img class="letter-title" src="./images/subtraction.svg" alt="guión">
-            <img id="d-style" class="letter-title" src="./images/d-letter.svg" alt="D">
-            <img class="letter-title" src="./images/e.svg" alt="E">
-            <img class="letter-title" src="./images/v.svg" alt=""> -->
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon" ></span>
-          </button>
-          <div class="collapse navbar-collapse container-navbar-menu" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0 bg-sm-info ul-navbar-menu">
-              <li class="nav-item li-menu_desktop" id="special-carateristics-frist-li">
-                <a class="nav-link active text-white font-size_a_lg" id="nav-first-li-a" href="../index.html" aria-current="page" >Inicio</a>
-              </li>
-              <li class="nav-item li-menu_desktop">
-                <a class="nav-link text-white font-size_a_lg" id="nav-second-li-a" href="../pages/projects.html">Proyectos</a>
-              </li>
-              <!-- <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu text-white" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item intoDropdown" href="#">Action</a></li>
-                  <li><a class="dropdown-item intoDropdown" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider intoDropdown"></li>
-                  <li><a class="dropdown-item intoDropdown" href="#">Something else here</a></li>
-                </ul>
-              </li> -->
-              <li class="nav-item li-menu_desktop">
-                <a class="nav-link text-white font-size_a_lg" id="nav-thirt-li-a" href="./pages/history.html">Historia</a>
-              </li>
-            </ul>
-            <!-- <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search proyect" aria-label="Search">
-              <button class="btn btn-outline-success bg-dark text-white" type="submit">Search</button>
-            </form> -->
-          </div>
-          <div class="reloj">
-            <div class="hora">00</div>
-            <div class="minutos">00</div>
-            <div class="segundos">00</div>
-        </div>
-        </div>
-      </nav>
-      <div class="reloj-responsive">
-      <div class="hora-res">00</div>
-      <div class="minutos-res">00</div>
-      <div class="segundos-res">00</div>
+
+
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="../index.html">Inicio</a>
+    <a href="./projects.html">Proyectos</a>
+    <a href=".history.html">Sobre mi</a>
+   
   </div>
 
+    
 
-      <div class="container mg-t-3 d-flex fila cont-1_section1">
+
+      <div class="container  ">
         <!-- fila imagen de bienvenida -->
-         <div class="row">
+         <div class="row mt-2">
+
+          <div class="col-12">
+
+            <div class="row">
+
+
+
+              <div class="col-12">
+                
+                        <div class="row propsNavbar">
+        
+                          <div class="col-8 ">
+                            <div class="row d-flex">
+                                <div class="col-5 col-md-3 col-lg-2 p-2">
+                                  <a  id="title-myname" class="navbar-brand font-s-title" href="https://github.com/Sebas-gatica-dev" target="_blank">
+                                    <img id="s-style" class="letter-title" src="../images/sg.svg" alt="sg">
+                                  </a>
+                                </div>
+                                <div class="col-4 col-lg-3 ps-sm-5 ps-lg-3 ps-5 pt-2">
+                                  <p id="dev" >.dev</p>                                </div>
+                            </div>
+                           
+                          </div>
+
+
+                        
+
+        
+                          <div class="col-4 ">
+        
+                            <div class="row">
+                              <div class="col-lg-8"></div>
+                               
+
+                                 <div class="col-lg-4 ">
+
+                        
+                                  <span class="btn button-menu" onclick="openNav()"><img id="button-icon" src="../images/bars-solid.svg" alt="bars-solid"></span>
+
+
+<!-- 
+                                  <div class="row reloj">
+
+                                    <div class="col-4 hora">00</div>
+        
+                                    <div class="col-4 minutos">00</div>
+                            
+                                    <div class="col-4 segundos">00</div>
+                            
+
+                                  </div>
+                                  -->
+
+                                 </div>
+
+
+                              
+                            </div>
+                                  
+                          </div>
+        
+                        </div>
+        
            
           
-              <div class="col-12">
-                <article class="content-history">
-                    <img id="seb1-history" src="../images/rostro-history.jpeg" class="img-thumbnail rounded-circle border-primary border-2" alt="Sebastian Gatica Developer-Full-Stack">     
-                <p class="history-text text-white first-content-history-p1">
-                  Soy argentino, tengo 24 años, vivo y me crie en el conurbano bonaerense, en un barrio llamado San Jose, cuando tenia 15 años, comence a cursar la licenciatura de musica en el conservatorio Julian Aguirre(Banfield).
-            
-                </p>
-                
+             
+              
+                  </div>
+        
+        
+        
+        
+        
+        
+            </div>
+          
+          </div>
+
+
+
+
+
            
-                <p class="history-text text-white first-content-history-p2">
-                  Luego, años despues note los beneficios del solfeo, ya que haber aprendido el lenguaje de la musica, me dio ciertas aptitudes para aprender a programar. <br>
-                  No es mi intencion caer en la victimizacion, pero mi vida, como la de la mayoria de los argentinos, no es para nada sencilla, pase muchos años buscando mi profession, algo que me de realmente una salida economica, pero que ademas sea de mi disfrute y de mi beneficio intelectual.
-                  Los sueños de ser consertista, se desvanecian en esas largas jornadas laborales, trabajando en cocinas, depositos como peón, albañileria, costura, limpieza... tuve largas jornadas en varios oficios, jornadas en las cuales sabia, que aunque mi trabajo era digno, sentia que mi mente estaba mas alla,
-                  me sentia cada vez mas lejos de mi sueño, teniendo que dedicarme de lleno a sobrevivir en un complicado contexto economico, la realidad de la mayoria de los argentinos.en esas condiciones me hallaba al comienzo del 2019, cuando el comienzo de la pandemia paralizo las actividades economicas, yo me hallaba desenpeñando un trabajo gastronomico, como encargado de una cocina, el negocio paro, y no volvieron allamarme, al estar en negro no pude reclamar nada,
-                  volvi a casa de mis padres y al paso de unos dias, me vi hundido en una gran desesperacion, ya que no lograba hallar otro trabajo, y a los largo de un mes y medio, sentí que tenía que encontrar una manera de salir de mi zona de confort, me levante del suelo y supe que yo debia tomar las riendas de la situacion y ya que si no habia una solucion visible, debia crearla.
-                  Explorando en youtube encontre un vídeo de un youtuber llamado <a class="history-text-a" href="https://www.youtube.com/c/soydalto" target="_blank">Dalto</a>, Terminé viendo su <a class="history-text-a" href="https://www.youtube.com/watch?v=kN1XP-Bef7w&t=8029s" target="_blank">curso de HTML</a>, siendo estos videos los primeros contenidos que consumi.
-                  Luego me dispuse a digerir<a class="history-text-a" href="https://developer.mozilla.org/es/docs/Learn/JavaScript">documentacion de javascript</a>, iniciando al poco tiempo mis practicas al haber sentido que los conocimientos de ascentaron.
-                  despues de un año me inscribi en <a class="history-text-a" href="https://www.soyhenry.com/">Henry</a>, un Bootcamp orientado, a formarse en el desarrollo web basado en el ecosistema javascript, utilizando React, junto con Nodejs y bases de datos reacionales, sin embargo lo primeros modulos estaban orientados, a aprender sobre a fondo javascript, y tener una base en lo que respecta a las ciencias de la computacion, su historia y que lugar ocupamos los desarrolladores en el mundo de la tecnologia,
-                  asi como tambien formarse en conceptos como estructura de datos, algoritmos, filas y pilas de informacion, un conocimeinto profundo de la sintaxis de versiones anteriores de javascript asi como las ultimas caracteristicas de ES6.
-                  Sin embargo, al llegar al modulo de react, mi familia que habian ayudado durante los primesos meses del bootcamp, ya no podian brindarme mas su apoyo.<br>
-                      Eventualmente, surgio una oportunidad de trabajo en OCASA, o tuve alternativa mas que dejar el bootcamp, ya que no podia continuar con los horarios requeridos.
-                  en esa epoca, me encontre muy desanimado y estuve casi apunto de resignarme... afortunadamente, gracias a la ayuda y el apoyo emocional de tantas matavillosas personas, pude sacar la fuerza y la diciplina, para continuar estudiando de manera autodidacta.
-                  Por eso, este porfolio, tiene dentro una gran esfuerzo. Gracias a un amigo colombiano que hice estudiando henry, el me compartio el acesso a su cuenta de udemy, dandome acceso a muchos cursos, que me ayudaron muchisimo, a aprender react, nodejs, y base de datos... entre otros conocimientos.
-                  <br>
-                  Soy un joven lleno de sueños y espectativas, hoy en dia sigo trabajando, aguardando el final del dia laboral para ir a casa, para gustosamente, estudiar y desarrollar mis proyectos, e incluso asi desarrolle este porfolio.
-                  <br>
-                  Si llego hasta aqui muchisimas gracias, sepa si le interesa mi perfil, que si hay conocimientos que me faltan y necesita, podre aprenderlos en tiempo record, tendra usted el 110% de mi capacidad a su servicio,
-                  ya que en verdad anhelo y merezco pertenecer a un grupo de trabajo, necesito crecer en el mundo de la tecnologia, ese mi mayor deseo.
-                   <br>
-                   <br>  
-                      ¡Muchas gracias!, no deje de visitar mi Linkedin y mi github, clickeando en el iconos debajo. 
-                </p>              
-              </article>
+          
+              <div class="col-12 mt-5 d-flex">
+             
+                  <div class="row mt-3 content-history">
+
+
+                    <div class="col-12 col-md-3 col-lg-3 col-foto">
+                      <img id="seb1-history" src="../images/foto-history.png" class="img-thumbnail rounded-circle border-primary border-2" alt="Sebastian Gatica Developer-Full-Stack">     
+                    </div>
+
+
+                 <div class="col-12 col-md-8 col-lg-8">
+                  <p class="history-text text-white first-content-history-p1">
+                    Desde pequeño, siempre quede deslumbrado con la tecnología, hoy tengo 24 años, y si tengo alguna certeza, es que donde pertenezco es al sector IT. <br>
+                    Mis aptitudes:  
+                    Tengo buen nivel con JavaScript, excelente manejo de css/Bootstrap.
+                  </p>
+                  
+                 </div>
+                 <p class="col-12 history-text text-white first-content-history-p1">
+                  Implementaciones de alto nivel con React. En combinación de paquetes npm de nodejs, desarrollo    
+                  de backend con framework express, buen nivel en el manejo de SQL, manejos de llaves foráneas, where, left join, right join, croos join, having. 
+                   Implementaciones del modelo CRUD en nodejs, y Go.        
+
+                 </p>
+                 
+                 <div class="col-12">
+                  <p class="history-text text-white first-content-history-p2">
+                   
+                    Soy un joven lleno de sueños y expectativas, me encanta estudiar y desarrollar mis proyectos. Busco el perfeccionamiento de mis conocimientos. 
+                    <br>
+                    Si le interesa mi perfil, no dude en contactarme, en verdad anhelo y merezco pertenecer a un grupo de trabajo, necesito crecer en el mundo de la tecnología, es ese mi mayor deseo.
+                     <br>
+                     <br>  
+                        ¡Muchas gracias!, no deje de visitar mi LinkedIn y mi GitHub, clickeando en los iconos debajo. 
+                  </p>              
+                 </div>
+
+
+               
+              </div>
+                
+               
               </div>
 
+
+
+            <!-- footer  -->
+              <footer class="col-12 style-footer-history ">
+    
+                <div class="row style-row-footer  p-3">
+                      <div class="col-6 d-flex justify-content-end">
+                          <a class="" href="https://www.linkedin.com/in/sebastian-gatica-062985200/" target="_blank"><img id="linkedin-img" src="../images/linkedin-3.svg" alt="My Linkedin Sebastian Gatica"  ></a>
+                      </div>
+                      <div class="col-6 d-flex ">
+                          <a class="" href="https://github.com/Sebas-gatica-dev" target="_blank"><img id="github-img" src="../images/github-logo-2.svg" alt="My GitHub Sebas-gatica-dev" ></a>
+                      </div>
+                </div>
+                
+            
+          </footer>
          
       </div>
+  
     </div>
 
 
 
-  <footer class="container style-footer-history ">
-    
-        <div class="row style-row-footer  p-3">
-              <div class="col-6 d-flex justify-content-end">
-                  <a class="" href="https://www.linkedin.com/in/sebastian-gatica-062985200/" target="_blank"><img id="linkedin-img" src="../images/linkedin-logo.svg" alt="My Linkedin Sebastian Gatica"  ></a>
-              </div>
-              <div class="col-6 d-flex ">
-                  <a class="" href="https://github.com/Sebas-gatica-dev" target="_blank"><img id="github-img" src="../images/github-logo-2.svg" alt="My GitHub Sebas-gatica-dev" ></a>
-              </div>
-        </div>
-        
-    
-  </footer>
+  
 
 
-    <script src="../reloj.js"></script>
+    <script src="../button.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
 </body>
